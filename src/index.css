@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles (optional) */
+body {
+  @apply bg-background text-foreground antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-sans font-bold text-primary;
+}
+
+button {
+  @apply font-medium rounded-md px-4 py-2 transition-all;
+}
+
+input, textarea, select {
+  @apply border border-input rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary;
+}
